@@ -17,7 +17,7 @@ import {
   useGetInfo,
   useGetLanguageCode,
   availableFeatures,
-} from '@capacitor-community/device-react';
+} from '@ubie-inc/device-react';
 
 const DevicePage: React.FC = () => {
   const platform = Capacitor.getPlatform();

@@ -32,12 +32,12 @@ To start using Capacitor Hooks in your app, you install the React Hook package a
 # Install the Capacitor Plugin
 npm install @capacitor/storage 
 # And then the React hook package:
-npm install @capacitor-community/storage-react
+npm install @ubie-inc/storage-react
 ```
 
 Import the hooks:
 ```jsx
-import { useStorage } from '@capacitor-community/storage-react'
+import { useStorage } from '@ubie-inc/storage-react'
 ```
 
 Then use the hooks in your app:
@@ -53,7 +53,7 @@ While Capacitor allows you to write to one API across several platforms, not all
 Each of the hook plugin paths exports an `availableFeatures` object, which contains a list features for that plugin. If the feature is supported for the current platform the app is running on, that feature will be true:
 
 ```jsx
-const { useStorageItem, availableFeatures } = `@capacitor-community/storage-react`;
+const { useStorageItem, availableFeatures } = `@ubie-inc/storage-react`;
 const [value, setValue] = useStorage('mykey');
 ...
 if(availableFeatures.useStorage) {
@@ -75,13 +75,13 @@ Any deprecated API'S from Capacitor 2 to 3 were also removed and updated, so you
 Installation:
 
 ```bash
-npm install @capacitor-community/app-react
+npm install @ubie-inc/app-react
 ```
 
 Usage:
 
 ```jsx
-import { useAppState, useAppUrlOpen, useLaunchUrl, availableFeatures } from '@capacitor-community/app-react';
+import { useAppState, useAppUrlOpen, useLaunchUrl, availableFeatures } from '@ubie-inc/app-react';
 ```
 
 `useAppState` provides access to App status information, such as whether the app is active or inactive. This value will update dynamically.
@@ -113,13 +113,13 @@ See the [App](https://capacitorjs.com/docs/apis/app) Capacitor Plugin docs for m
 Installation:
 
 ```bash
-npm install @capacitor-community/browser-react
+npm install @ubie-inc/browser-react
 ```
 
 Usage: 
 
 ```jsx
-import { useClose, useOpen, availableFeatures } from '@capacitor-community/browser-react';
+import { useClose, useOpen, availableFeatures } from '@ubie-inc/browser-react';
 ```
 
 `useOpen`, `useClose` provides a way to launch, and close an in-app browser for external content:
@@ -138,7 +138,7 @@ See the [Browser](https://capacitorjs.com/docs/apis/browser) Capacitor Plugin do
 Installation:
 
 ```bash
-npm install @capacitor-community/camera-react
+npm install @ubie-inc/camera-react
 ```
 
 Usage:
@@ -169,13 +169,13 @@ See the [Camera](https://capacitorjs.com/docs/apis/camera) Capacitor Plugin docs
 Installation:
 
 ```bash
-npm install @capacitor-community/clipboard-react
+npm install @ubie-inc/clipboard-react
 ```
 
 Usage:
 
 ```jsx
-import { useClipboard, availableFeatures } from '@capacitor-community/clipboard-react';
+import { useClipboard, availableFeatures } from '@ubie-inc/clipboard-react';
 ```
 
 `useClipboard` reads and writes clipboard data:
@@ -199,13 +199,13 @@ See the [Clipboard](https://capacitorjs.com/docs/apis/clipboard) Capacitor Plugi
 Installation:
 
 ```bash
-npm install @capacitor-community/device-react
+npm install @ubie-inc/device-react
 ```
 
 Usage: 
 
 ```jsx
-import { useGetInfo, useGetLanguageCode, availableFeatures } from '@capacitor-community/device-react';
+import { useGetInfo, useGetLanguageCode, availableFeatures } from '@ubie-inc/device-react';
 ```
 
 `useGetInfo`, `useGetLanguageCode` gives access to device information and device language settings:
@@ -222,13 +222,13 @@ See the [Device](https://capacitorjs.com/docs/apis/device) Capacitor Plugin docs
 Installation:
 
 ```bash
-npm install @capacitor-community/filesystem-react
+npm install @ubie-inc/filesystem-react
 ```
 
 Usage:
 
 ```jsx
-import { useFilesystem, base64FromPath, availableFeatures } from '@capacitor-community/filesystem-react';
+import { useFilesystem, base64FromPath, availableFeatures } from '@ubie-inc/filesystem-react';
 ```
 
 `useFilesystem` returns back common methods to gain access to file system apis.
@@ -255,13 +255,13 @@ const base64String = await base64FromPath(path);
 Installation:
 
 ```bash
-npm install @capacitor-community/geolocation-react
+npm install @ubie-inc/geolocation-react
 ```
 
 Usage:
 
 ```jsx
-import { useCurrentPosition, useWatchPosition, availableFeatures } from '@capacitor-community/geolocation-react';
+import { useCurrentPosition, useWatchPosition, availableFeatures } from '@ubie-inc/geolocation-react';
 ```
 
 `useCurrentPosition` returns a single geolocation position using the Geolocation API in Capacitor. The position can be manually updated by calling `getPosition`:
@@ -286,7 +286,7 @@ See the [Geolocation](https://capacitorjs.com/docs/apis/geolocation) Capacitor P
 Installation:
 
 ```bash
-npm install @capacitor-community/keyboard-react
+npm install @ubie-inc/keyboard-react
 ```
 
 Usage:
@@ -309,13 +309,13 @@ See the [Keyboard](https://capacitorjs.com/docs/apis/keyboard) Capacitor Plugin 
 Installation:
 
 ```bash
-npm install @capacitor-community/network-react
+npm install @ubie-inc/network-react
 ```
 
 Usage:
 
 ```jsx
-import { useStatus, availableFeatures } from '@capacitor-community/network-react';
+import { useStatus, availableFeatures } from '@ubie-inc/network-react';
 ```
 
 `useStatus` monitors network status and information:
@@ -330,13 +330,13 @@ See the [Network](https://capacitorjs.com/docs/apis/network) Capacitor Plugin do
 Installation:
 
 ```bash
-npm install @capacitor-community/screen-reader-react
+npm install @ubie-inc/screen-reader-react
 ```
 
 Usage:
 
 ```jsx
-import { useIsScreenReaderEnabled, useSpeak, availableFeatures } from '@capacitor-community/screen-reader-react';
+import { useIsScreenReaderEnabled, useSpeak, availableFeatures } from '@ubie-inc/screen-reader-react';
 ```
 
 `useIsScreenReaderEnabled` provides access to detecting and responding to a screen reading device or OS setting being enabled:
@@ -358,13 +358,13 @@ See the [ScreenReader](https://capacitorjs.com/docs/apis/screenreader) Capacitor
 Installation:
 
 ```bash
-npm install @capacitor-community/storage-react
+npm install @ubie-inc/storage-react
 ```
 
 Usage:
 
 ```jsx
-import { useStorage, useStorageItem, availableFeatures } from '@capacitor-community/storage-react';
+import { useStorage, useStorageItem, availableFeatures } from '@ubie-inc/storage-react';
 ```
 
 `useStorage` provides access to Capacitor's storage engine. There is also a helper called `useStorageItem` which makes managing a single item easy if you don't need to access the full Storage API (see below)

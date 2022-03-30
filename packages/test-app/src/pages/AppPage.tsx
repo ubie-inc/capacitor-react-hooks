@@ -18,7 +18,7 @@ import {
   useAppUrlOpen,
   useLaunchUrl,
   availableFeatures,
-} from '@capacitor-community/app-react';
+} from '@ubie-inc/app-react';
 const platform = Capacitor.getPlatform();
 const AppPage: React.FC = () => {
   const { state } = useAppState();

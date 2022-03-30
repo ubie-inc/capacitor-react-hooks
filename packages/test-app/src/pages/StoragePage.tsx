@@ -15,7 +15,7 @@ import {
   IonButton,
 } from '@ionic/react';
 import { Capacitor } from '@capacitor/core';
-import { useStorage, useStorageItem, availableFeatures } from '@capacitor-community/storage-react';
+import { useStorage, useStorageItem, availableFeatures } from '@ubie-inc/storage-react';
 
 const StoragePage: React.FC = () => {
   const platform = Capacitor.getPlatform();

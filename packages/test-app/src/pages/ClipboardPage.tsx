@@ -15,7 +15,7 @@ import {
   IonButton,
 } from '@ionic/react';
 import { Capacitor } from '@capacitor/core';
-import { useClipboard, availableFeatures } from '@capacitor-community/clipboard-react';
+import { useClipboard, availableFeatures } from '@ubie-inc/clipboard-react';
 
 const ClipboardPage: React.FC = () => {
   const platform = Capacitor.getPlatform();

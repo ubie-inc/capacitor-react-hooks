@@ -15,7 +15,7 @@ import {
 } from '@ionic/react';
 import { Capacitor } from '@capacitor/core';
 import { CameraResultType } from '@capacitor/camera';
-import { useCamera, availableFeatures } from '@capacitor-community/camera-react';
+import { useCamera, availableFeatures } from '@ubie-inc/camera-react';
 
 const CameraPage: React.FC = () => {
   const platform = Capacitor.getPlatform();

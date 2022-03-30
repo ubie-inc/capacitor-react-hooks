@@ -16,7 +16,7 @@ import {
   IonInput,
 } from '@ionic/react';
 
-import { useClose, useOpen, availableFeatures } from '@capacitor-community/browser-react';
+import { useClose, useOpen, availableFeatures } from '@ubie-inc/browser-react';
 
 const BrowserPage: React.FC = () => {
   const platform = Capacitor.getPlatform();

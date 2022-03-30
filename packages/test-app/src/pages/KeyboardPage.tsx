@@ -15,7 +15,7 @@ import {
   IonInput,
 } from '@ionic/react';
 import { Capacitor } from '@capacitor/core';
-import { useKeyboard } from '@capacitor-community/keyboard-react';
+import { useKeyboard } from '@ubie-inc/keyboard-react';
 
 const KeyboardPage: React.FC = () => {
   const platform = Capacitor.getPlatform();

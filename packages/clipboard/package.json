@@ -1,5 +1,5 @@
 {
-  "name": "@capacitor-community/clipboard-react",
+  "name": "@ubie-inc/clipboard-react",
   "version": "0.1.0",
   "description": "React Hooks for Capacitor Clipboard plugin",
   "keywords": [
@@ -12,7 +12,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/capacitor-community/react-hooks.git"
+    "url": "https://github.com/ubie-inc/capacitor-react-hooks.git"
   },
   "files": [
     "dist/"

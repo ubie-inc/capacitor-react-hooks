@@ -12,7 +12,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/capacitor-community/react-hooks.git"
+    "url": "https://github.com/ubie-inc/capacitor-react-hooks.git"
   },
   "scripts": {
     "lerna:publish": "lerna publish from-git --dist-tag latest --yes",
@@ -52,17 +52,17 @@
     "typescript": "^4.4.4"
   },
   "dependencies": {
-    "@capacitor-community/app-react": "file:packages/app",
-    "@capacitor-community/browser-react": "file:packages/browser",
-    "@capacitor-community/camera-react": "file:packages/camera",
-    "@capacitor-community/clipboard-react": "file:packages/clipboard",
-    "@capacitor-community/device-react": "file:packages/device",
-    "@capacitor-community/filesystem-react": "file:packages/filesystem",
-    "@capacitor-community/geolocation-react": "file:packages/geolocation",
-    "@capacitor-community/keyboard-react": "file:packages/keyboard",
-    "@capacitor-community/network-react": "file:packages/network",
-    "@capacitor-community/screen-reader-react": "file:packages/screen-reader",
-    "@capacitor-community/storage-react": "file:packages/storage",
+    "@ubie-inc/app-react": "file:packages/app",
+    "@ubie-inc/browser-react": "file:packages/browser",
+    "@ubie-inc/camera-react": "file:packages/camera",
+    "@ubie-inc/clipboard-react": "file:packages/clipboard",
+    "@ubie-inc/device-react": "file:packages/device",
+    "@ubie-inc/filesystem-react": "file:packages/filesystem",
+    "@ubie-inc/geolocation-react": "file:packages/geolocation",
+    "@ubie-inc/keyboard-react": "file:packages/keyboard",
+    "@ubie-inc/network-react": "file:packages/network",
+    "@ubie-inc/screen-reader-react": "file:packages/screen-reader",
+    "@ubie-inc/storage-react": "file:packages/storage",
     "react-ionic-hooks-test-app": "file:packages/test-app"
   }
 }

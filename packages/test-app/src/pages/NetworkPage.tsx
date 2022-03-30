@@ -13,7 +13,7 @@ import {
   IonCardContent,
 } from '@ionic/react';
 import { Capacitor } from '@capacitor/core';
-import { useStatus, availableFeatures } from '@capacitor-community/network-react';
+import { useStatus, availableFeatures } from '@ubie-inc/network-react';
 
 const NetworkPage: React.FC = () => {
   const platform = Capacitor.getPlatform();

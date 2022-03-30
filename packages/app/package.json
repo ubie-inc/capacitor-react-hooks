@@ -1,5 +1,5 @@
 {
-  "name": "@capacitor-community/app-react",
+  "name": "@ubie-inc/app-react",
   "version": "0.1.0",
   "description": "React Hooks for Capacitor App Plugin",
   "keywords": [
@@ -12,7 +12,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/capacitor-community/react-hooks.git"
+    "url": "https://github.com/ubie-inc/capacitor-react-hooks.git"
   },
   "files": [
     "dist/"

@@ -18,7 +18,7 @@ import {
   useCurrentPosition,
   useWatchPosition,
   availableFeatures,
-} from '@capacitor-community/geolocation-react';
+} from '@ubie-inc/geolocation-react';
 
 const GeolocationPage: React.FC = () => {
   const platform = Capacitor.getPlatform();

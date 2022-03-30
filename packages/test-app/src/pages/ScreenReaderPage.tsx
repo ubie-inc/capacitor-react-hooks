@@ -19,7 +19,7 @@ import {
   useIsScreenReaderEnabled,
   availableFeatures,
   useSpeak,
-} from '@capacitor-community/screen-reader-react';
+} from '@ubie-inc/screen-reader-react';
 
 const ScreenReaderPage: React.FC = () => {
   const platform = Capacitor.getPlatform();

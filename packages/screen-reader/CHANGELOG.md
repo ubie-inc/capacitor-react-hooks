@@ -5,23 +5,23 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # 0.1.0 (2021-10-17)
 
-**Note:** Version bump only for package @capacitor-community/screen-reader-react
+**Note:** Version bump only for package @ubie-inc/screen-reader-react
 
 
 
 
 
-## [0.0.3](https://github.com/capacitor-community/react-hooks/compare/@capacitor-community/screen-reader-react@0.0.2...@capacitor-community/screen-reader-react@0.0.3) (2021-10-17)
+## [0.0.3](https://github.com/capacitor-community/react-hooks/compare/@ubie-inc/screen-reader-react@0.0.2...@ubie-inc/screen-reader-react@0.0.3) (2021-10-17)
 
-**Note:** Version bump only for package @capacitor-community/screen-reader-react
-
-
+**Note:** Version bump only for package @ubie-inc/screen-reader-react
 
 
 
-## [0.0.2](https://github.com/capacitor-community/react-hooks/compare/@capacitor-community/screen-reader-react@0.0.1...@capacitor-community/screen-reader-react@0.0.2) (2021-10-17)
 
-**Note:** Version bump only for package @capacitor-community/screen-reader-react
+
+## [0.0.2](https://github.com/capacitor-community/react-hooks/compare/@ubie-inc/screen-reader-react@0.0.1...@ubie-inc/screen-reader-react@0.0.2) (2021-10-17)
+
+**Note:** Version bump only for package @ubie-inc/screen-reader-react
 
 
 
@@ -29,4 +29,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.0.1 (2021-10-16)
 
-**Note:** Version bump only for package @capacitor-community/screen-reader-react
+**Note:** Version bump only for package @ubie-inc/screen-reader-react
