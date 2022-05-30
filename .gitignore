@@ -10,7 +10,16 @@ node_modules
 
 # production
 build
-dist
+packages/browser/dist
+packages/camera/dist
+packages/clipboard/dist
+packages/device/dist
+packages/filesystem/dist
+packages/geolocation/dist
+packages/keyboard/dist
+packages/network/dist
+packages/screen-reader/dist
+packages/storage/dist
 types
 *.tgz
 
